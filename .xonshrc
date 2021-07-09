@@ -1,0 +1,4 @@
+# XONSH WEBCONFIG START
+$PROMPT = '{INTENSE_GREEN}┬─[{YELLOW}{user}{RESET}@{BLUE}{hostname}{RESET}:{cwd}{INTENSE_GREEN}]─[{localtime}]─[{RESET}G:{INTENSE_GREEN}{curr_branch}=]\n{INTENSE_GREEN}╰─>{INTENSE_RED}{prompt_end}{RESET} '
+xontrib load apt_tabcomplete argcomplete bashisms coreutils pyenv
+# XONSH WEBCONFIG END
