@@ -47,4 +47,7 @@ set expandtab
 
 " See how much space is left before 110 characters (recommended line width)
 set colorcolumn=110
+
+" Always copy to global clipboard
+set clipboard=unnamed
 highlight ColorColumn ctermbg=darkgrey

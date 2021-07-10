@@ -1,0 +1,16 @@
+PYTHONPATH=$HOME/lib/python
+EDITOR=vim
+
+export PYTHONPATH EDITOR
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$HOME/.local/cling/bin:$PATH"
+
+# Path to Shared folder between Windows and Ubuntu
+export SHARED=/mnt/Shared
+
+# Path to Google Drive
+export DRIVE=/run/user/1000/gvfs/google-drive:host=gmail.com,user=sohangchopra/136_39fLPiUqQZvy2GePzIWZuVJZVzCG8
