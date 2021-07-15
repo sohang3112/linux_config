@@ -103,3 +103,6 @@ source /home/sohang/ptghci/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # commmon configuration for all shells
 source /home/sohang/.commonrc
+
+# common aliases for all shells
+source /home/sohang/.common_aliases
