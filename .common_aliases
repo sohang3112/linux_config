@@ -3,4 +3,7 @@ alias riseup-vpn='/snap/bin/riseup-vpn.launcher'
 
 # Programming Languages
 alias python='python3.9'  # 'ptpython' # ptpython is Python REPL with syntax highlight
-alias ghci='ptghci'             # Colored GHCI
+alias ghci='ptghci'             # Colored GHCi 
+
+# Miscellaneous
+alias cat='batcat'      # cat with syntax highlighting
